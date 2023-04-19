@@ -42,13 +42,10 @@ document.querySelectorAll(".drum")[i].addEventListener("click", function()  {
             kick.play();  
          break;
     
-    
-
     default:  console.log(buttonInnerHTML);
     } 
-
-});
-
+   }
+)
 } 
 
 

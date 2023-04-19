@@ -1,40 +1,54 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: #FEFBE9;
 }
 
 h1 {
   font-size: 5rem;
-  color: #DBEDF3;
+  color: #F0A04B;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+  text-shadow: 3px 0 #183A1D;
+
+}
+
+p {
+  font-family: "Arvo", cursive;
+  font-size: 15px;
+  padding: 0 20px 15px 20px;
 
 }
 
 footer {
-  color: #DBEDF3;
+  color:  #F0A04B;
   font-family: sans-serif;
 }
 
-.w {background-image: url("images/tom1.png")
+.w {background-image: url("images/tom1.jpg");
+  background-size: 320px 280px;
 }
 
-.a {background-image: url("images/tom2.png");
+.a {background-image: url("images/tom2.jpg");
+  background-size: 320px 280px;
 }
 
-.s {background-image: url("images/tom3.png");
+.s {background-image: url("images/tom3.jpg");
+  background-size: 320px 280px;
 }
 
-.d {background-image: url("images/tom4.png");
+.d {background-image: url("images/tom4.jpg");
+  background-size: 320px 280px;
 }
 
-.j {background-image: url("images/snare.png");
+.j {background-image: url("images/snare.jpg");
+  background-size: 360px 280px;
 }
 
-.k {background-image: url("images/crash.png");
+.k {background-image: url("images/c1.jpg");
+  background-size: 280px 280px;
 }
 
-.l {background-image: url("images/kick.png");
+.l {background-image: url("images/kick.jpg");
+  background-size: 280px 420px;
 }
 
 .set {
@@ -42,7 +56,7 @@ footer {
 }
 
 .game-over {
-  background-color: red;
+  background-color: #183A1D;
   opacity: 0.8;
 }
 
@@ -57,17 +71,17 @@ footer {
 
 .drum {
   outline: none;
-  border: 10px solid #404B69;
-  font-size: 5rem;
+  border: 3px solid #183A1D;
   font-family: 'Arvo', cursive;
+  font-size: 50px;
   line-height: 2;
   font-weight: 900;
-  color: #DA0463;
-  text-shadow: 3px 0 #DBEDF3;
-  border-radius: 15px;
+  color: #F0A04B;
+  text-shadow: 3px 0 #183A1D;
+  border-radius: 10px;
   display: inline-block;
-  width: 150px;
-  height: 150px;
+  width: 260px;
+  height: 260px;
   text-align: center;
   margin: 10px;
   background-color: white;
